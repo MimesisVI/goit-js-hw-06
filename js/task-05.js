@@ -7,4 +7,7 @@ refs.inputEl.addEventListener("input", onInputeChange);
 
 function onInputeChange(event) {
   refs.spanEl.textContent = event.currentTarget.value;
+  if (refs.spanEl.textContent === '') {
+    refs.spanEl.textContent = "Anonymous";
+  }
 }

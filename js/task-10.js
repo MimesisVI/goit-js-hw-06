@@ -36,6 +36,39 @@ function destroyBoxes() {
 
 
 
+// const controlsEl = document.querySelector("#controls");
+// const inputEl = controlsEl.firstElementChild;
+// const createBtn = document.querySelector("[data-create]");
+// const destroyBtn = document.querySelector("[data-destroy]");
+// const boxesEl = document.querySelector("#boxes");
+
+// createBtn.addEventListener("click", onAddBox);
+// destroyBtn.addEventListener("click", onDestroyBoxes);
+
+// function onAddBox() {
+//   let amount = Number(inputEl.value);
+//   onCreateBoxes(amount);
+// }
+
+// let boxSize = 30;
+
+// function onCreateBoxes(amount) {
+//   for (let i = 0; i < amount; i += 1) {
+//     let newBox = document.createElement("div");
+//     newBox.style.backgroundColor = getRandomHexColor();
+//     newBox.style.width = ${boxSize}px;
+//     newBox.style.height = ${boxSize}px;
+//     newBox.style.marginTop = "20px";
+//     boxSize += 10;
+//     boxesEl.append(newBox);
+//   }
+// }
+
+// function onDestroyBoxes() {
+//   boxesEl.innerHTML = "";
+// }
+
+
 /* 
   if (amount > 0) {
     const divEl = document.createElement("div");
